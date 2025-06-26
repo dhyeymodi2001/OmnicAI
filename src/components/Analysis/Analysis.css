@@ -1,0 +1,137 @@
+/* SkillAnalysis.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #03151f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #cceaf6;
+}
+
+.skill-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.skill-banner-img {
+  background-image: url("../../assets/images/Rectangle 13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 370px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  margin-bottom: 40px;
+  margin-left: auto;
+}
+
+.skill-banner-img h1 {
+  color: #03151f;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.skill-header {
+  background-color: #58b5f7;
+  padding: 1rem 2rem;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.skill-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #03151f;
+  font-family: monospace;
+}
+
+.skill-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-box {
+  background-color: #112530;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-icon-img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 90px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.skill-label {
+  font-size: 1.6rem;
+  color: #58b5f7;
+  font-weight: bold;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  margin-top: 1rem;
+  padding-top: 0rem;
+}
+
+.skill-score {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #cceaf6;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  margin-top: 0rem;
+  padding-top: 0rem;
+}
+
+.skill-button {
+  background-color: #58b5f7;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #03151f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.skill-button:hover {
+  background-color: #74cbfc;
+}
+
+.skill-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 5rem;
+  color: rgba(88, 181, 247, 0.1);
+  pointer-events: none;
+}
+
+.lightning::before {
+  content: "⚡";
+  font-size: 3rem;
+}
+
+.crosshair::before {
+  content: "🎯";
+  font-size: 3rem;
+}
+
+.scope::before {
+  content: "🎯";
+  font-size: 3rem;
+}

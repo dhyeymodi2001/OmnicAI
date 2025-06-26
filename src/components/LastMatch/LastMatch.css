@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap");
+
+body {
+  margin: 0;
+  background-color: #03151f;
+  font-family: "Orbitron", sans-serif;
+  color: #cceaf6;
+}
+
+.match-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.header-banner-img {
+  background-image: url("../../assets/images/Rectangle 23.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 450px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+.header-banner-img h1 {
+  color: #03151f;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+}
+
+.match-body {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.agent-section {
+  flex: 0 0 320px;
+}
+
+.agent-img {
+  flex: 0.6;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gray-line {
+  height: 1px;
+  background-color: #5c5f60;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.gray-line2 {
+  height: 1px;
+  background-color: #5c5f60;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.stats {
+  align-content: center;
+  flex: 1.5;
+}
+
+.info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.player-name {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.col {
+  min-width: 100px;
+}
+
+.subcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #a1b3bc;
+  margin-top: 15px;
+}
+
+.value {
+  font-size: 22px;
+  font-weight: bold;
+  color: #cceaf6;
+  margin-top: 0px;
+}
+
+.weapon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.subtext {
+  font-size: 12px;
+  color: #a1b3bc;
+  margin-top: 0px;
+}
+
+.loss-score {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.red {
+  color: #f94144;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.green {
+  color: #80ed99;
+  font-size: 12px;
+}
+
+.gun {
+  height: 20px;
+  vertical-align: middle;
+}

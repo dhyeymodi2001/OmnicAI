@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #03151f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #cceaf6;
+}
+
+.career-container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #03151f;
+  color: #cceaf6;
+  font-family: "Orbitron", sans-serif;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.career-banner-img {
+  background-image: url("../../assets/images/Rectangle 13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-right: 0px;
+  margin-bottom: 40px;
+  margin-left: auto;
+}
+
+.career-banner-img h1 {
+  color: #03151f;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+}
+.career-grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 7rem;
+  position: relative;
+}
+
+.career-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+
+.career-column:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -3.5rem;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #3b4a51;
+  opacity: 0.4;
+}
+
+.career-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #cceaf6;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #989898;
+  margin-top: 0rem;
+  text-transform: uppercase;
+  margin-bottom: 0rem;
+  font-family: "Orbitron", sans-serif;
+}
+
+.note {
+  color: #58b5f7;
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Orbitron", sans-serif;
+}

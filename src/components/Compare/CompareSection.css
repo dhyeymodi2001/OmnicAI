@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background-color: #03151f;
+  font-family: "Orbitron", sans-serif;
+  color: #cceaf6;
+}
+
+.compare-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #03151f;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.compare-banner {
+  background-image: url("../../assets/images/Rectangle 13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 80px;
+  margin: 0 auto 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare-banner h1 {
+  color: #03151f;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+}
+
+.compare-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 4rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.compare-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.compare-card {
+  position: relative;
+  width: 280px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compare-box {
+  background-color: #2d5267;
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 0% 100%);
+  padding: 1rem;
+  width: 220px;
+  height: 270px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.background-shape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90%;
+  background-color: #2a5267;
+  z-index: 0;
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 0% 100%);
+}
+
+.background-shape.right {
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%, 0 10%);
+}
+
+.player-img {
+  width: 300px;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.player-img.right {
+  bottom: 19px;
+  left: 0px;
+  right: 10px;
+}
+
+.player-img.left {
+  bottom: 19px;
+  left: 10px;
+  right: 0px;
+}
+
+.compare-box2 {
+  background-color: #2d5267;
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 0% 100%);
+  transform: scaleX(-1);
+  padding: 1rem;
+  width: 220px;
+  height: 270px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.compare-img {
+  width: 200px;
+  object-fit: contain;
+}
+
+.compare-img2 {
+  width: 200px;
+  object-fit: contain;
+}
+
+.compare-label {
+  font-family: "Orbitron", sans-serif;
+  color: #cceaf6;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.compare-vs {
+  height: 90px;
+  align-self: center;
+}
+
+.left::before,
+.right::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 60px;
+  background-color: #cceaf6;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left::before {
+  left: -15px;
+  border-radius: 2px;
+}
+
+.right::after {
+  right: -15px;
+  border-radius: 2px;
+}
+
+.side-bar {
+  position: absolute;
+
+  transform: translateY(-50%);
+  height: 60px;
+  z-index: 2;
+}
+
+.side-bar.left {
+  left: -30px;
+  top: 90%;
+}
+
+.side-bar.right {
+  right: -30px;
+  bottom: 72%;
+  transform: scale(-1);
+}
